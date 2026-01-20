@@ -40,6 +40,12 @@
             transform: scale(1.02);
             background-color: rgba(30, 41, 59, 0.8);
         }
+        .play-overlay {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            transition: all 0.4s ease;
+        }
 
     </style>
 </head>
@@ -233,5 +239,73 @@
 </section>
 </div>
 </section>
+<section id="episodes" class="py-12 md:py-24 bg-[#0f172a] px-6">
+    <div class="max-w-[1200px] mx-auto">
+        <h2 class="text-3xl md:text-[40px] font-bold mb-8 md:mb-12 text-center">Featured Episodes</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <a href="https://www.youtube.com/watch?v=PcbuKRNtCUc" target="_blank" class="bg-[#1e293b]/40 rounded-[32px] overflow-hidden border border-gray-800 hover:border-indigo-500/50 transition-all group">
+                <div class="relative h-48 overflow-hidden">
+                    <img src="https://img.youtube.com/vi/PcbuKRNtCUc/maxresdefault.jpg" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" alt="AI Future">
+                    <div class="absolute inset-0 bg-black/20 flex items-center justify-center transition-opacity">
+                        <div style="background-image: url('/assets/hero-circle.png'); background-size: cover; background-position: center;" class="w-14 h-14 rounded-full flex items-center justify-center border border-white/30 relative shadow-2xl">
+                             <div class="absolute inset-0 bg-[#0f172a]/20 rounded-full"></div>
+                             <div class="relative z-10 w-0 h-0 border-t-[8px] border-t-transparent border-l-[12px] border-l-white border-b-[8px] border-b-transparent ml-1"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-6 md:p-8">
+                    <h3 class="text-lg md:text-xl font-bold mb-3 leading-tight">The Future of AI in Everyday Life</h3>
+                    <p class="text-gray-400 text-sm mb-6 line-clamp-2">Exploring how artificial intelligence is transforming our daily routines.</p>
+                    <div class="flex items-center text-[#22C55E] text-xs font-bold gap-2">
+                        <span class="w-2 h-2 bg-[#22C55E] rounded-full"></span>
+                        28 min
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=kJb-tAi8YO4" target="_blank" class="bg-[#1e293b]/40 rounded-[32px] overflow-hidden border border-gray-800 hover:border-indigo-500/50 transition-all group">
+                <div class="relative h-48 overflow-hidden">
+                    <img src="https://img.youtube.com/vi/kJb-tAi8YO4/maxresdefault.jpg" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" alt="Remote Work">
+                    <div class="absolute inset-0 bg-black/20 flex items-center justify-center transition-opacity">
+                        <div style="background-image: url('/assets/hero-circle.png'); background-size: cover; background-position: center;" class="w-14 h-14 rounded-full flex items-center justify-center border border-white/30 relative shadow-2xl">
+                            <div class="absolute inset-0 bg-[#0f172a]/20 rounded-full"></div>
+                            <div class="relative z-10 w-0 h-0 border-t-[8px] border-t-transparent border-l-[12px] border-l-white border-b-[8px] border-b-transparent ml-1"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-6 md:p-8">
+                    <h3 class="text-lg md:text-xl font-bold mb-3 leading-tight">Building Better Habits for Remote Work</h3>
+                    <p class="text-gray-400 text-sm mb-6 line-clamp-2">Practical strategies for staying productive in a remote environment.</p>
+                    <div class="flex items-center text-[#22C55E] text-xs font-bold gap-2">
+                        <span class="w-2 h-2 bg-[#22C55E] rounded-full"></span>
+                        26 min
+                    </div>
+                </div>
+            </a>
+
+            <a href="https://www.youtube.com/watch?v=BUTjcAjfMgY" target="_blank" class="bg-[#1e293b]/40 rounded-[32px] overflow-hidden border border-gray-800 hover:border-indigo-500/50 transition-all group">
+                <div class="relative h-48 overflow-hidden">
+                    <img src="https://img.youtube.com/vi/BUTjcAjfMgY/maxresdefault.jpg" class="w-full h-full object-cover group-hover:scale-110 transition duration-500" alt="Career Growth">
+                    <div class="absolute inset-0 bg-black/20 flex items-center justify-center transition-opacity">
+                        <div style="background-image: url('/assets/hero-circle.png'); background-size: cover; background-position: center;" class="w-14 h-14 rounded-full flex items-center justify-center border border-white/30 relative shadow-2xl">
+                            <div class="absolute inset-0 bg-[#0f172a]/20 rounded-full"></div>
+                            <div class="relative z-10 w-0 h-0 border-t-[8px] border-t-transparent border-l-[12px] border-l-white border-b-[8px] border-b-transparent ml-1"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-6 md:p-8">
+                    <h3 class="text-lg md:text-xl font-bold mb-3 leading-tight">Career Growth in Tech: A Roadmap</h3>
+                    <p class="text-gray-400 text-sm mb-6 line-clamp-2">Expert advice on navigating your tech career from junior to leadership.</p>
+                    <div class="flex items-center text-[#22C55E] text-xs font-bold gap-2">
+                        <span class="w-2 h-2 bg-[#22C55E] rounded-full"></span>
+                        35 min
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
+
 </body>
 </html>
