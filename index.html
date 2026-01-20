@@ -15,7 +15,6 @@
             font-weight: 900;
         }
 
-    
         #menu-toggle:checked ~ #mobile-menu { 
             display: block; 
             animation: slideDown 0.3s ease-out;
@@ -46,7 +45,14 @@
             border: 1px solid rgba(255, 255, 255, 0.3);
             transition: all 0.4s ease;
         }
-
+        .gradient-btn {
+            background: linear-gradient(90deg, #6366f1 0%, #a855f7 100%);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .gradient-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px -5px rgba(99, 102, 241, 0.5);
+        }
     </style>
 </head>
 <body class="bg-[#0f172a] text-white overflow-x-hidden"> 
